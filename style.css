@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+
+
+#item
+{
+    background-color: #ff4c68;
+    height: auto;
+}
+
+
+@media (max-width:600px){
+    #item{
+        height: auto;
+    }
+}
+
+/*navbar decoration start.*/
+.navbar{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    padding: 1rem 12rem;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.navbar-nav .nav-item{
+    padding: 0 2rem;
+}
+
+/*navbar decoration end.*/
+
+
+
+/* hero decoration start.*/
+
+#hero{
+    margin-top: 1.5rem;
+    padding: 3% 15%;
+    
+  
+    
+    
+}
+
+
+
+#hero h1{
+    font-size: 3rem;
+    font-weight: bolder;
+    line-height: 1.5;
+    color: #fff;
+}
+
+
+
+#bt3, #bt33{
+
+    height: auto;
+    width: auto;
+    margin-top: 2rem;
+    border-radius: 20%;
+  
+
+}
+
+#bt33{
+    margin-left:  .5rem;
+}
+
+#bt3 img, #bt33 img{
+
+   
+    width: 3rem;
+   
+
+}
+
+#bt3 img{
+    border-radius: 50%;
+}
+
+#img img{
+    width: 60%;
+    transform: rotate(20deg);
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    height: auto;
+   
+    
+   
+}
+
+@media (max-width:1000px){
+
+    #img img{
+
+        transform: rotate(0deg);
+        position: static;
+        height: auto;
+        align-items: center;
+    }
+}
+
+
+
+/* hero decoration end.*/
+
+
+/* Feature decoration Starts.*/
+#features{
+
+    padding: 5rem 8rem;
+    margin: 7rem 0 8rem 0;
+    background-color: #fff;
+    position: relative;
+    bottom: 15rem;
+    }
+    @media (max-width:1000px){
+
+        #features{
+    
+            text-align: center;
+        }
+    }
+
+
+#feature-move{
+    padding-top: 10rem;
+ 
+    
+ 
+}
+
+.same ,.same1, .same2{
+    width: 5rem;
+    margin-left: 2rem;
+    color: #ef8172;
+    margin-bottom: 2rem;
+}
+
+.same1{
+    margin-left: 3.5rem;
+}
+
+.same2{
+    margin-left: 6rem;
+}
+
+
+@media(max-width:1000px){
+
+     .same1 {
+
+        position: relative;
+        right: 2rem;
+    }
+
+    .same {
+
+        position: relative;
+        left: -1rem;
+    }    
+
+    .same2{
+        position: relative;
+        right: 3rem;
+    }
+
+
+  
+}
+
+
+
+.same:hover ,.same1:hover, .same2:hover{
+    color: #ef8172;
+}
+
+
+/*testimonial-edit Editing Start*/
+#testimonial{
+
+    height: 75vh;
+    background-color: #ff4c68;
+    position: relative;
+    bottom: 17rem;
+
+}
+
+
+#testimonial-edit{
+    text-align: center;
+    height: auto;
+    padding-top: 6rem;
+       
+
+}
+
+#testimonial-edit img{
+    height: 10rem;
+    border-radius: 100%;
+    margin: 2rem 0 0 10rem;
+   
+
+}
+
+#testimonial-edit h2{
+ 
+
+   
+    color: #fff;
+    font-weight: bold;
+}
+
+#testimonial-edit em{
+ 
+
+   
+    color: #fff;
+    font-weight: 600;
+    margin-left: 1rem;
+}
+
+/*testimonial-edit Editing End*/
+
+/*Press Section Start*/
+
+#press{
+    padding-top: 5rem;
+    background-color: #ff4c68;
+    text-align: center;
+    height: auto;
+    position: relative;
+    bottom: 17rem;
+}
+
+#press img{
+    width: 15rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+
+/*Press Section End*/
+
+/*Pricing Section Start*/
+#pricing
+{
+   
+    margin-top: 5rem;
+    padding: 1rem 6rem;
+    position: relative;
+    bottom: 17rem;
+    margin-bottom: -8rem;
+}
+
+
+#center1{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+/*Pricing Section End*/
+
+
+/*Footer Section Starts From There */
+
+.footer{
+   background: #ff4c68;
+    max-width: 97%;
+    margin: auto;
+    color:#fff;
+    font-weight: bold;
+    font-size: 1.3rem;
+    border-radius: 3px;
+    
+    
+}
+.getINTouch, .followMe, .about{
+
+   margin: 2rem;
+   padding: 2rem;
+   
+  
+   
+   
+    
+}
+
+.getINTouch p{
+    position: relative;
+    left: 3rem;
+    bottom: 2rem;
+}
+
+.followMe .size{
+   
+    width: 7rem;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+}
+
+.followMe .size:hover{
+   
+  
+    opacity: .7;
+    border: 2px inset #ff4c68;
+    border-radius: 100%;
+}
+
+
+.followMe{
+    text-align: center;
+    justify-content: center;
+    padding: 6rem 2rem;
+    
+}
+
+
+
+.footer .yellow, .footer .white, .footer .black{
+
+    border: 5px solid black;
+}
